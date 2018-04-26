@@ -1,3 +1,15 @@
+/* Webfont: FairyTales */
+@font-face {
+  font-family: 'FairyTales';
+  src: url("../custom/Fairy Tales.eot");
+  /* IE9 Compat Modes */
+  src: url("../custom/Fairy Tales.eot?#iefix") format("embedded-opentype"), url("../custom/Fairy Tales.woff") format("woff"), url("../custom/Fairy Tales.ttf") format("truetype"), url("../custom/Fairy Tales.svg#FairyTales") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
@@ -138,7 +150,9 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .brand-heading {
+  font-family: 'FairyTales', Georgia;
   font-size: 50px;
+  text-transform: none;
 }
 
 .masthead .intro-body .intro-text {

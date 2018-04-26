@@ -1,5 +1,18 @@
 @import 'variables.scss';
 @import 'mixins.scss';
+
+/* Webfont: FairyTales */@font-face {
+    font-family: 'FairyTales';
+    src: url('../custom/Fairy Tales.eot'); /* IE9 Compat Modes */
+    src: url('../custom/Fairy Tales.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../custom/Fairy Tales.woff') format('woff'), /* Modern Browsers */
+         url('../custom/Fairy Tales.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../custom/Fairy Tales.svg#FairyTales') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
@@ -148,7 +161,9 @@ a {
 
     vertical-align: middle;
     .brand-heading {
+      font-family: 'FairyTales', Georgia;
       font-size: 50px;
+      text-transform: none;
     }
     .intro-text {
       font-size: 18px;
